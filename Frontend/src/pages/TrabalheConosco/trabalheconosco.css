@@ -1,0 +1,73 @@
+.vagas{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+        
+}
+
+.bgtrabalhe{
+    background-color: rgb(235, 232, 232);
+}
+
+
+
+.tituloTrabalheConosco {
+    margin: 1rem;
+    padding: 1rem;
+}
+
+.formulario {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    
+    padding: 1rem;
+}
+
+.formulario input{
+    width: 100%;
+    border-radius: 10px;
+    margin: 2px;
+    border: 0.5px solid blue;
+    padding: 0.3rem;
+}
+
+select{
+    border: 0.5px solid blue;
+}
+
+input{
+    border: 0;
+}
+
+.formulario textarea{
+    width: 100%;
+    border-radius: 10px;
+    margin: 2px;
+    border: 0.5px solid blue;
+    padding: 0.3rem;
+    margin-top: 1rem;
+}
+
+.bntenviar button{
+    padding: 5px;
+    border: 0;
+    background-color: #0D6EFD;
+    color:azure;
+    width: 200px;
+    margin: 5px;
+    border-radius: 15px;
+    width: 100%;
+}
+
+
+pre {
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;;  /* Escolha a fonte que você usa no resto do site */
+    white-space: pre-wrap;  /* Faz com que as quebras de linha e espaços em branco sejam preservados */
+    word-wrap: break-word;  /* Quebra as palavras longas para evitar overflow */
+}
+
+  

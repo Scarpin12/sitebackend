@@ -1,0 +1,18 @@
+#sobre{
+    text-align: justify;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+
+.beneficios{
+    font-size: 13px;
+    font-style: italic;
+}
+
+#sobre h2{
+    margin-top: 2rem;
+    background-color: #003B7A;
+    color: #fff;
+    padding: 0.5rem;
+}
+

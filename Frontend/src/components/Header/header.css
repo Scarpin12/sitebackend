@@ -1,0 +1,76 @@
+.custom-nav {
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.1);
+  font-weight: bold;
+}
+
+
+
+.custom-navbar {
+  background-color: #ffffff; /* Substitua isso pela cor desejada */
+}
+
+.custom-dropdown {
+  border: 0px solid #ffffff;
+  
+}
+.custom-dropdown.show {
+  border-color: #007bff; /* Adicione a cor desejada quando o dropdown está aberto */
+  
+}
+.dropdown-item {
+  transition: transform 0.4s ease-in-out;
+}
+
+.dropdown-item:hover {
+  background-color: transparent !important;
+  transform: translateX(2px); /* Ou o valor desejado para o movimento */
+  color: rgb(0, 0, 182)!important;
+  /* font-weight: 300; */
+  overflow: hidden;
+ 
+  
+}
+
+.custom-dropdown-content {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  width: 100%;
+}
+
+.custom-dropdown-column {
+  flex: 1; /* Ajuste a largura da coluna conforme necessário */
+  margin-right: 10px; /* Adicione espaço entre as colunas conforme necessário */
+}
+
+.custom-dropdown-column h6 {
+  margin-bottom: 10px; 
+  margin-left: 10px;/* Adicione espaço abaixo do título conforme necessário */
+}
+
+
+
+
+/* Adaptações para telas menores */
+@media only screen and (max-width: 1200px) {
+  .custom-dropdown-content {
+    max-width: 90%; /* Reduz a largura para telas médias */
+  }
+}
+
+@media only screen and (max-width: 992px) {
+  .custom-dropdown-column {
+    flex: 1 1 100%; /* Uma coluna em telas menores (tablets) */
+    margin-right: 0; /* Remove o espaço entre as colunas */
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .custom-dropdown-content {
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    width: 100%;
+    flex-direction: column;
+  }
+}

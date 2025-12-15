@@ -1,0 +1,79 @@
+.containerh3 {
+    margin-top: 2rem;
+    text-align: justify;
+
+}
+
+.projeto {
+    margin: 4rem;
+    padding: 2rem;
+    margin-bottom: 8em;
+}
+
+
+.box-field {
+    box-shadow: 5px 5px 10px 2px rgba(0, 0, 0, 0.5);
+    padding: 2rem;
+    border-radius: 10px;
+
+}
+
+.box-field p {
+    width: 80%;
+    text-align: justify;
+
+}
+
+.box-field-img {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: -180px;
+    width: 80%;
+
+}
+
+.box-field-img img {
+
+    box-shadow: 5px 5px 10px 2px rgba(0, 0, 0, 0.5);
+}
+
+.qualidade {
+    text-align: justify;
+    margin-top: 4rem;
+    margin-bottom: 4rem;
+}
+
+.diferenciais {
+    padding-top: 4rem;
+    padding-bottom: 4rem;
+    background-color: rgb(243, 243, 243);
+}
+
+.line {
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+}
+
+.boxline {
+    width: 300px;
+    height: 200px;
+    background-color: #fff;
+    border: 0.5px solid black;
+    margin: 5px;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+@media (max-width: 768px) {
+    .line {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+}

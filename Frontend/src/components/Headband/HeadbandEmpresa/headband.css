@@ -1,0 +1,25 @@
+#headband {
+    
+    padding: 3rem;
+    background-image: linear-gradient(rgb(17, 2, 87), rgba(0,0,0,.3)), url("../../../assets/circuito.gif");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+}
+
+
+
+ #headband .container h1{
+    font-family: 'Roboto', sans-serif;
+    font-size: 62px;
+    color: #fff;
+    z-index: 1000;
+}
+
+
+.box-p{
+    width: 50%;
+    text-align: justify;
+    color: #fff;
+}
